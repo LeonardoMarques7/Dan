@@ -1,0 +1,24 @@
+
+
+.imagens {
+    width: 250px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.faixa-imgs {
+    background-color: rgb(200, 200, 255);
+    border-bottom: 1px solid rgb(175, 255, 255);
+    border-top: 1px solid rgb(175, 255, 255);
+}
+
+.img-cards {
+    width: 150px;
+    border-radius: 10px;
+    margin: 5px;
+    border: black solid 1px;
+}
+
+.principal {
+    height: 100vh;
+}
