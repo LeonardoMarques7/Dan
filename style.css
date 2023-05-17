@@ -22,3 +22,13 @@
 .principal {
     height: 100vh;
 }
+
+#btn1 {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+#btn2 {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
