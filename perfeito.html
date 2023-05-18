@@ -12,7 +12,7 @@
 <body class="fundo">
     <nav class="navbar navbar-expand-lg bg">
         <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"><img src="./imgs/img-logo.png" alt="" width="80px"></a>
+        <a class="navbar-brand" href="./tela-principal.html"><img src="./imgs/img-logo.png" alt="" width="80px"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -62,18 +62,25 @@
                 <label class="btn btn-outline-secondary" for="vbtn-radio2">Eu</label>
             </div><br><br><br>
             <script>
-                function Voce() {
-                    alert('O mais lindo mesmo!!!');
-                }
-                function Eu() {
-                    alert('Errou tente novamente!!!');
+                var Resultado = 0;
+                var btn1 = document.getElementById("vbtn-radio1");
+                var btn2 = document.getElementById("vbtn-radio2");
+                
+                btn1.addEventListener("click", btn1Clicado);
+                btn2.addEventListener("click", btn2Clicado);
+
+                function btn1Clicado () {
+                    console.log(Resultado);
                 }
 
-                var btnCerto = document.getElementById("btn1");
-                var btnErrado = document.getElementById("btn2");
-                btnCerto.addEventListener("click", Voce);
-                btnErrado.addEventListener("click", Eu);
-            </script>
+                function btn2Clicado ()
+                {   
+                    Resultado + 1;
+                    console.log(Resultado);
+                }
+
+                
+            </script> 
             </center>
         </form>
     </div>

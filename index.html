@@ -8,45 +8,35 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="./imgs/img-me-2.png" type="image/png">
     <title>er....</title>
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg bg">
-        <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"><img src="./imgs/img-logo.png" alt="" width="80px"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="./vc.html">Vc</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./casar.html">Quando vamos nos casar</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./teste.html">Teste de amor</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./perfeito.html">Mais lindo</a>
-                </li>
-            </ul>
-        </div>
+</head><!-- Cor antiga: style="background-color: rgb(125, 194, 255);" -->
+<body style="background-color: lightpink;">
+    <center>
+    <div class="text-center principal" style="max-width: 600px; margin: 0px 10px 0px 10px;"><br><br><br><br>
+        <form class="form shadow" autocomplete="on">
+            <h1 class="form-title">Login <3</h1><br>
+            <div>  
+                <label for="tipo-usuario" class="form-label">Entrar como:</label>
+                <select class="form-select text-center" id="tipo-usuario" name="tipo-usuario" required>
+                    <option class="opc" value="vc">Amorzito(VC)</option>
+                    <option class="opc" value="eu">Amorzinho(EU)</option>
+                </select><br>
+                <div class="digite">
+                    <label for="senha" class="form-label">Digite sua senha</label>
+                    <input type="password" name="senha" class="form-control text-center" title="Digite a senha" id="senhaDigitada" required>
+                </div>
+                <div class="codigo row d-block fundo"><br>
+                    <input class="btn btn-login-l btn-outline-danger" type="submit" value="Entrar" style="width: 100px;">
+                    <input class="btn btn-login-d btn-login-l btn-outline-secondary" type="reset" value="Limpar" style="width: 100px;">
+                </div>
+            </div>
+        </form>
     </div>
-    </nav>
-    <div class="text-center principal"><br>
-        <h1>Oiii bem-vinde amorzito :))</h1>
-        <div class="faixa-imgs justify-content-center">
-            <img src="./imgs/img1.png" alt="" class="imagens shadow">
-            <img src="./imgs/img2.png" alt="" class="imagens shadow">
-            <img src="./imgs/img3.png" alt="" class="imagens shadow">
-        </div>
-        <h5>Veja os jogos(links) acima</h5>
-    </div>
+    </center>
     <br><br>
     <hr>
         <h5 class="text-center">Feito por Léo</h5>
     <hr>
+    <script src="./script-login.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html>
