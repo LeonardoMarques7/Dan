@@ -33,9 +33,3 @@
     border-top-right-radius: 0px;
 }
 
-form {
-    border-radius: 10px;
-    background-color: rgb(255, 255, 255);
-    border: 1px solid rgb(255, 175, 175);
-    padding: 40px;
-}

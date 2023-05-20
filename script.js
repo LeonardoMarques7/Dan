@@ -148,3 +148,4 @@ function verificarAmor() {
     alert("Viuuu se num desiste né! A gente ama engual!!!");
   }
 }
+
