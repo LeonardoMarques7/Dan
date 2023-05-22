@@ -10,17 +10,52 @@
     <title>er....</title>
 </head><!-- Cor antiga: style="background-color: rgb(125, 194, 255);" -->
 <style>
+    body {
+        background-image: url("./imgs/fundo2.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
     form {
+        background-color: rgb(255, 221, 227);
+        padding: 15px;
         border-radius: 10px;
-        background-color: rgb(255, 255, 255);
-        border: 1px solid rgb(255, 175, 175);
-        padding: 40px;
+    }
+
+    :root {
+        --Btn: #29B2AA;
+        --Btn2: #EC5952;
+    }
+
+    .btn-outline-secondary {
+        border-color: var(--Btn);
+        --bs-btn-hover-border-color: #29B2AA;
+        --bs-btn-color: var(--Btn);
+        --bs-btn-hover-color: var(--bs-white);
+        --bs-btn-hover-bg: #29B2AA;
+        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+        --bs-btn-active-color: var(--bs-btn-hover-color);
+        --bs-btn-active-bg: #29B2AA;
+        --bs-btn-active-border-color: #29B2AA;
+    }
+
+    .btn-outline-danger {
+        border-color: var(--Btn2);
+        --bs-btn-hover-border-color: #EC5952;
+        --bs-btn-color: var(--Btn2);
+        --bs-btn-hover-color: var(--bs-white);
+        --bs-btn-hover-bg: #EC5952;
+        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+        --bs-btn-active-color: var(--bs-btn-hover-color);
+        --bs-btn-active-bg: #EC5952;
+        --bs-btn-active-border-color: #EC5952;
     }
 </style>
 <body style="background-color: lightpink;">
     <center>
     <div class="text-center principal" style="max-width: 600px; margin: 0px 10px 0px 10px;"><br><br><br><br>
-        <form class="form shadow" autocomplete="on">
+        
+        <form class="form shadow-sm" autocomplete="on">
             <h1 class="form-title">Login <3</h1><br>
             <div>  
                 <label for="tipo-usuario" class="form-label">Entrar como:</label>
